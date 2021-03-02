@@ -5,7 +5,10 @@
     "@type": "reproschema:Field",
     "@id": "comments",
     "ui": {
-        "inputType": "text"
+        "inputType": "text",
+        "allow": [
+            "dontKnow"
+        ]
     },
     "question": "\r\n\r\n![pencil.png](https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/pencil.png =250x250)\r\n\r\nPlease leave some comments:"
 }

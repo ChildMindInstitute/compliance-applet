@@ -4,7 +4,7 @@
 const protocolName = "compliance_applet"
 
 //2. your protocol display name: this will show up in the app and be parsed as a string
-const protocolDisplayName = "DBT Daily Diary Card Pilot (Updated)"
+const protocolDisplayName = "Compliance Tracker"
 
 //2. create your raw github repo URL
 const userName = 'ChildMindInstitute'
@@ -18,6 +18,9 @@ let protocolDescription = "Track compliance across the day."
 
 //4. where are you hosting your images?
 let imagePath = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}/images/`
+
+//5. choose the protocol image:
+let protocolImage = imagePath + 'checked.png'
 
 /* hard coded activity display object
 let activityDisplayObj = {
@@ -546,6 +549,7 @@ function createProtocolSchema(protocolName, protocolContextUrl) {
         "@id": `${protocolName}_schema`,
         "skos:prefLabel": protocolDisplayName,
         "schema:description": protocolDescription,
+        "schema:image": protocolImage,
         "landingPage": protocolAboutPath,
         "schema:schemaVersion": "0.0.1",
         "schema:version": "0.0.1",
