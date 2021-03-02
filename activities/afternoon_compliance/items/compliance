@@ -1,0 +1,37 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "compliance",
+    "ui": {
+        "inputType": "slider"
+    },
+    "question": "\r\n\r\n![cloudy.png](https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/cloudy.png =250x250)\r\n\r\nRate Oliver's afternoon compliance:",
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 0,
+                "schema:name": "0",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/cancel"
+            },
+            {
+                "schema:value": 1,
+                "schema:name": "1",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 2,
+                "schema:name": "2",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 3,
+                "schema:name": "3",
+                "@type": "schema:option",
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/thumbsUp"
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "activity_path": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/activities/",
+        "morning_compliance": {
+            "@id": "activity_path:morning_compliance/morning_compliance_schema",
+            "@type": "@id"
+        },
+        "afternoon_compliance": {
+            "@id": "activity_path:afternoon_compliance/afternoon_compliance_schema",
+            "@type": "@id"
+        },
+        "evening_compliance": {
+            "@id": "activity_path:evening_compliance/evening_compliance_schema",
+            "@type": "@id"
+        }
+    }
+}

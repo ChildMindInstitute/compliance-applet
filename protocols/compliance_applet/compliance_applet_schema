@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/protocols/compliance_applet/compliance_applet_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "compliance_applet_schema",
+    "skos:prefLabel": "DBT Daily Diary Card Pilot (Updated)",
+    "schema:description": "Track compliance across the day.",
+    "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/protocols/compliance_applet/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "morning_compliance",
+                "isAbout": "morning_compliance",
+                "isVis": true
+            },
+            {
+                "variableName": "afternoon_compliance",
+                "isAbout": "afternoon_compliance",
+                "isVis": true
+            },
+            {
+                "variableName": "evening_compliance",
+                "isAbout": "evening_compliance",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "morning_compliance",
+            "afternoon_compliance",
+            "evening_compliance"
+        ],
+        "shuffle": false
+    }
+}

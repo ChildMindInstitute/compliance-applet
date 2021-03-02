@@ -1,0 +1,11 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "@id": "comments",
+    "ui": {
+        "inputType": "text"
+    },
+    "question": "\r\n\r\n![pencil.png](https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/pencil.png =250x250)\r\n\r\nPlease leave some comments:"
+}

@@ -1,0 +1,18 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "evening_compliance": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/activities/evening_compliance/items/",
+        "compliance": {
+            "@id": "evening_compliance:compliance",
+            "@type": "@id"
+        },
+        "comments": {
+            "@id": "evening_compliance:comments",
+            "@type": "@id"
+        },
+        "thank_you": {
+            "@id": "evening_compliance:thank_you",
+            "@type": "@id"
+        }
+    }
+}

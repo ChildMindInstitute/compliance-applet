@@ -1,0 +1,38 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/activities/evening_compliance/evening_compliance_context"
+    ],
+    "@type": "reproschema:Activity",
+    "@id": "evening_compliance_schema",
+    "skos:prefLabel": "Evening Compliance",
+    "schema:description": "Track compliance and leave notes.",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "scoringLogic": {},
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "compliance",
+                "isAbout": "compliance",
+                "isVis": true
+            },
+            {
+                "variableName": "comments",
+                "isAbout": "comments",
+                "isVis": true
+            },
+            {
+                "variableName": "thank_you",
+                "isAbout": "thank_you",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "compliance",
+            "comments",
+            "thank_you"
+        ],
+        "shuffle": false
+    }
+}
