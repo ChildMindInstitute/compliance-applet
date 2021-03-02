@@ -14,7 +14,7 @@
                 "schema:value": 0,
                 "schema:name": "0",
                 "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/cancel.png"
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/xmark.png"
             },
             {
                 "schema:value": 1,

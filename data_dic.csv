@@ -1,10 +1,10 @@
 Variable / Field Name,Section Header,Form Name,Form Display Name,Form Note,headerImage,headerImageSize,Field Type,multipleChoice,Allow,Field Label,"Choices, Calculations, OR Slider Labels",minVal,maxVal,Branching Logic (Show field only if...)
-compliance,,morning_compliance,Morning Compliance,Track compliance and leave notes.,sunrise.png,200x200,slider,,,Rate Oliver's morning compliance:,"0, 0, cancel.png | 1, 1 | 2, 2 | 3, 3, thumbsUp.png",,,
+compliance,,morning_compliance,Morning Compliance,Track compliance and leave notes.,sunrise.png,200x200,slider,,,Rate Oliver's morning compliance:,"0, 0, xmark.png | 1, 1 | 2, 2 | 3, 3, thumbsUp.png",,,
 comments,,morning_compliance,Morning Compliance,Track compliance and leave notes.,pencil.png,200x200,text,,dontKnow,Please leave some comments:,,,,
 thank_you,,morning_compliance,Morning Compliance,Track compliance and leave notes.,checklist.png,200x200,markdown-message,,,Thank you! Tapping the **Done** button will exit the questionnaire. See you again in the afternoon.,,,,
-compliance,,afternoon_compliance,Afternoon Compliance,Track compliance and leave notes.,cloudy.png,200x200,slider,,,Rate Oliver's afternoon compliance:,"0, 0, cancel.png | 1, 1 | 2, 2 | 3, 3, thumbsUp.png",,,
+compliance,,afternoon_compliance,Afternoon Compliance,Track compliance and leave notes.,cloudy.png,200x200,slider,,,Rate Oliver's afternoon compliance:,"0, 0, xmark.png | 1, 1 | 2, 2 | 3, 3, thumbsUp.png",,,
 comments,,afternoon_compliance,Afternoon Compliance,Track compliance and leave notes.,pencil.png,200x200,text,,dontKnow,Please leave some comments:,,,,
 thank_you,,afternoon_compliance,Afternoon Compliance,Track compliance and leave notes.,checklist.png,200x200,markdown-message,,,Thank you! Tapping the **Done** button will exit the questionnaire. See you again in the evening.,,,,
-compliance,,evening_compliance,Evening Compliance,Track compliance and leave notes.,crescentMoon.png,200x200,slider,,,Rate Oliver's evening compliance:,"0, 0, cancel.png | 1, 1 | 2, 2 | 3, 3, thumbsUp.png",,,
+compliance,,evening_compliance,Evening Compliance,Track compliance and leave notes.,crescentMoon.png,200x200,slider,,,Rate Oliver's evening compliance:,"0, 0, xmark.png | 1, 1 | 2, 2 | 3, 3, thumbsUp.png",,,
 comments,,evening_compliance,Evening Compliance,Track compliance and leave notes.,pencil.png,200x200,text,,dontKnow,Please leave some comments:,,,,
 thank_you,,evening_compliance,Evening Compliance,Track compliance and leave notes.,checklist.png,200x200,markdown-message,,,Thank you! Tapping the **Done** button will exit the questionnaire. See you again tomorrow morning.,,,,
