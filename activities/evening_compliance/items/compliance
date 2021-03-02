@@ -7,7 +7,7 @@
     "ui": {
         "inputType": "slider"
     },
-    "question": "\r\n\r\n![crescentMoon.png](https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/crescentMoon.png =250x250)\r\n\r\nRate Oliver's evening compliance:",
+    "question": "\r\n\r\n![crescentMoon.png](https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/crescentMoon.png =200x200)\r\n\r\nRate Oliver's evening compliance:",
     "responseOptions": {
         "choices": [
             {
