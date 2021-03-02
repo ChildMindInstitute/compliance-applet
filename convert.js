@@ -4,7 +4,7 @@
 const protocolName = "compliance_applet"
 
 //2. your protocol display name: this will show up in the app and be parsed as a string
-const protocolDisplayName = "Compliance Tracker"
+const protocolDisplayName = "Compliance Tracker (Oliver)"
 
 //2. create your raw github repo URL
 const userName = 'ChildMindInstitute'

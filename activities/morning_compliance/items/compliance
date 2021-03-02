@@ -14,7 +14,7 @@
                 "schema:value": 0,
                 "schema:name": "0",
                 "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/cancel"
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/cancel.png"
             },
             {
                 "schema:value": 1,
@@ -30,7 +30,7 @@
                 "schema:value": 3,
                 "schema:name": "3",
                 "@type": "schema:option",
-                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/thumbsUp"
+                "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/thumbsUp.png"
             }
         ]
     }
