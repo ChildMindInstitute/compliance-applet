@@ -5,7 +5,7 @@
     ],
     "@type": "reproschema:Protocol",
     "@id": "compliance_applet_schema",
-    "skos:prefLabel": "Compliance Tracker (Oliver)",
+    "skos:prefLabel": "Compliance Tracker (O.H.)",
     "schema:description": "Track compliance across the day.",
     "schema:image": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/images/checked.png",
     "landingPage": "https://raw.githubusercontent.com/ChildMindInstitute/compliance-applet/master/protocols/compliance_applet/README.md",
